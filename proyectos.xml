@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Proyectos autor="Olav Martos">
+    <Proyecto idProj="v0001">
+        <Nombre>Proyecto Troncal - Wordle</Nombre>
+        <InfoGeneral>
+            <Foto>src/proyectos/wordle.png</Foto>
+            <Idiomas>Castellano, Catalan, Ingles</Idiomas>
+            <Descripcion>
+                Proyecto troncal para replicar el juego de Wordle en un terminal usando C#.
+            </Descripcion>
+        </InfoGeneral>
+        <Enlace>https://github.com/olavma/ProjecteTroncal_Wordle</Enlace>
+    </Proyecto>
+    <Proyecto idProj="v0002">
+        <Nombre>Practica Final - M4</Nombre>
+        <InfoGeneral>
+            <Foto>src/proyectos/pracfinalm4.png</Foto>
+            <Idiomas>Castellano</Idiomas>
+            <Descripcion>
+                Practica final realizada para el Modulo 04 del ciclo de grado medio SMIX
+            </Descripcion>
+        </InfoGeneral>
+        <Enlace>https://github.com/olavma/PracticaFinal-Bash</Enlace>
+    </Proyecto>
+</Proyectos>
