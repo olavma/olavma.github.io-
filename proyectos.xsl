@@ -26,7 +26,7 @@
                         </li>
                     </ul>
                 </nav>
-                <section class="videogames">
+                <section>
                     <h3>PROYECTOS</h3>
                     <xsl:apply-templates match="Proyectos" />
                 </section>
@@ -51,8 +51,8 @@ olav.martos.7e4@itb.cat</address>
 
     <xsl:template match="Proyectos">
         <xsl:for-each select="Proyecto">
-            <article class="videogame">
-                <h4>
+            <article class="project">
+                <h4 class="nameProject">
                     <xsl:value-of select="Nombre" />
                 </h4>
                 <figure class="portada">
