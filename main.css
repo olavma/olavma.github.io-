@@ -126,15 +126,15 @@ section > h3 {
     padding-right: 10px;
 }
 
-/*Videojuegos*/
+/*Introduccion*/
 
-.games{
+.introduction{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
 }
 
-.game {
+.art {
     border: 1px solid #ffc045;
     border-top-left-radius: 5%;
     border-top-right-radius: 5%;
@@ -144,7 +144,7 @@ section > h3 {
     margin-bottom: 10px
 }
 
-.game > img {
+.art > img {
     width: 26vw;
     height: 25vh;
     border-top-left-radius: 5%;
@@ -153,35 +153,34 @@ section > h3 {
     border-bottom-right-radius: 5%;
 }
 
-.game > div {
+.art > div {
     padding-top: 10px;
     padding-left: 10px;
     padding-right: 10px;
     padding-bottom: 20px;
     height: 12.9%;
-    /* overflow: hidden; */
     margin-bottom: 30%;
 }
 
 /*Noticias*/ 
 
-.news{
+.techSkills{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
 }
 
-.news > h3 {
+.techSkills > h3 {
     margin-right: 100%;
     padding-left: 98%;
 }
 
-.news > article {
+.techSkills > article {
     width: 600px;
     padding-bottom: 2%;
 }
 
-.news > article > p{
+.techSkills > article > p{
     padding-bottom: 5%;
 }
 
@@ -197,7 +196,7 @@ section > h3 {
     left: 10px;
 }
 
-.news > article > div.container > img {
+.techSkills > article > div.container > img {
     width: 32.5vw;
     border: 1px solid black;
 }
