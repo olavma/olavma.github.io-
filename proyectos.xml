@@ -23,4 +23,15 @@
         </InfoGeneral>
         <Enlace>https://github.com/olavma/PracticaFinal-Bash</Enlace>
     </Proyecto>
+    <Proyecto idProj="v0003">
+        <Nombre>Juego del Coche - JS</Nombre>
+        <InfoGeneral>
+            <Foto>src/proyectos/carGame.png</Foto>
+            <Idiomas>Castellano</Idiomas>
+            <Descripcion>
+                Juego del coche realizado con HTML, CSS y JS para aprender sobre la POO (Programacion Orientada a Objetos).
+            </Descripcion>
+        </InfoGeneral>
+        <Enlace>https://github.com/olavma/JSCarGame</Enlace>
+    </Proyecto>
 </Proyectos>

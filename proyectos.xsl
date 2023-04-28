@@ -8,8 +8,8 @@
             <head>
                 <meta charset="UTF-8" />
                 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-                <link rel="stylesheet" href="m4play.css" />
-                <link rel="stylesheet" href="videojuegos.css" />
+                <link rel="stylesheet" href="main.css" />
+                <link rel="stylesheet" href="proyectos.css" />
                 <title>Pr03 - Game</title>
             </head>
             <body>
