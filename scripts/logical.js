@@ -7,7 +7,9 @@ const id = urlParams.get('id');
 // Realizar cambios en la página según el valor del ID
 if (id) {
     // Hacer algo con el ID, como cargar contenido relacionado o mostrar información específica
-    LoadInfo(id);
+    if (!(id == 0)) {
+        LoadInfo(id);
+    }
 } else {
     // No se proporcionó ningún ID en la URL
     console.log('No se proporcionó ningún ID en la URL');
