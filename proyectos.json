@@ -1,37 +1,43 @@
 [{
         "IdProyecto": 1,
         "Nombre": "Proyecto Troncal - Wordle",
-        "Informacion General": [{
+        "InfoGeneral": {
             "Foto": "src/proyectos/wordle.png",
             "Idiomas": "Castellano, Catalan, Ingles",
             "Descripcion": "Proyecto troncal para replicar el juego de Wordle en un terminal usando C#."
 
-        }],
-        "Enlace": "proy/wordle.html",
-        "EnlaceProyecto": "https://github.com/olavma/ProjecteTroncal_Wordle"
+        },
+        "Enlace": "proyecto.html",
+        "EnlaceProyecto": "https://github.com/olavma/ProjecteTroncal_Wordle",
+        "autor": "Olav Martos Aceña",
+        "Informacion": "info/wordle.pdf"
     },
     {
         "IdProyecto": 2,
         "Nombre": "Practica Final - M4",
-        "Informacion General": [{
+        "InfoGeneral": {
             "Foto": "src/proyectos/pracfinalm4.png",
             "Idiomas": "Castellano",
             "Descripcion": "Practica final realizada para el Modulo 04 del ciclo de grado medio SMIX"
 
-        }],
-        "Enlace": "proy/m4.html",
-        "EnlaceProyecto": "https://github.com/olavma/PracticaFinal-Bash"
+        },
+        "Enlace": "proyecto.html",
+        "EnlaceProyecto": "https://github.com/olavma/PracticaFinal-Bash",
+        "autor": "Olav Martos Aceña",
+        "Informacion": "info/pracFinalM4.pdf"
     },
     {
         "IdProyecto": 3,
         "Nombre": "Juego del Coche - JS",
-        "Informacion General": [{
+        "InfoGeneral": {
             "Foto": "src/proyectos/carGame.png",
             "Idiomas": "Castellano",
             "Descripcion": "Juego del coche realizado con HTML, CSS y JS para aprender sobre la POO (Programacion Orientada a Objetos)."
 
-        }],
-        "Enlace": "proy/jscargame.html",
-        "EnlaceProyecto": "https://github.com/olavma/JSCarGame"
+        },
+        "Enlace": "proyecto.html",
+        "EnlaceProyecto": "https://github.com/olavma/JSCarGame",
+        "autor": "Olav Martos Aceña",
+        "Informacion": "info/carGame.pdf"
     }
 ]
