@@ -2,7 +2,7 @@
 
 const section = document.getElementById("proyectos");
 
-fetch('../proyectos.json')
+fetch('../files/proyectos.json')
     .then(response => response.json())
     .then(data => {
         data.forEach(element => {

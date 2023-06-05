@@ -17,15 +17,15 @@ if (id) {
 
 function LoadInfo(id) {
     var proyect = {};
-    fetch('../proyectos.json')
+    fetch('../files/proyectos.json')
         .then(response => response.json())
         .then(data => {
             data.forEach(element => {
                 if (element.IdProyecto == id) {
                     proyect = element;
+                    InfoProyect(proyect);
                 }
             });
-            InfoProyect(proyect);
         })
         .catch(error => {
             console.error('Error al obtener el archivo', error);
@@ -57,4 +57,11 @@ function InfoProyect(proyect) {
     // Boton
     var btn = document.querySelector('.btn3');
     btn.href = proyect.EnlaceProyecto;
+
+    // Cambiamos el <title>
+    document.title = proyect.Nombre;
+
+    // PDF
+    var emb = document.getElementsByTagName("embed");
+    emb[0].src = proyect.Informacion;
 }
