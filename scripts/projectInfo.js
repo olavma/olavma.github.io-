@@ -62,6 +62,16 @@ function InfoProyect(proyect) {
     document.title = proyect.Nombre;
 
     // PDF
-    var emb = document.getElementsByTagName("embed");
-    emb[0].src = proyect.Informacion;
+    fetch(proyect.Informacion)
+        .then(response => {
+            if (response.status === 200) {
+                var emb = document.getElementsByTagName("embed");
+                emb[0].src = proyect.Informacion;
+            } else {
+                console.error('El archivo no existe.');
+            }
+        })
+        .catch(error => {
+            console.error('Error al verificar la existencia del archivo:', error);
+        });
 }
