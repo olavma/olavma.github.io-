@@ -54,9 +54,15 @@ function InfoProyect(proyect) {
     var author = document.getElementById("author");
     author.textContent = proyect.autor;
 
-    // Boton
-    var btn = document.querySelector('.btn3');
-    btn.href = proyect.EnlaceProyecto;
+    // Boton + info
+    var btn = document.querySelectorAll('.btn3');
+    btn[0].href = proyect.EnlaceProyecto;
+
+    // Boton Jugar
+    if(proyect.Jugar){
+        btn[1].href = proyect.juego + "?id=" + proyect.IdProyecto;
+        btn[1].style.display = "block";
+    }
 
     // Cambiamos el <title>
     document.title = proyect.Nombre;
