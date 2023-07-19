@@ -5,10 +5,10 @@
     },
     {
         "Nombre": "Victoria",
-        "cancion": "src/audio/win.mp3"
+        "cancion": "src/audio/win.wav"
     },
     {
         "Nombre": "Derrota",
-        "cancion": "src/audio/lose.mp3"
+        "cancion": "src/audio/lose.wav"
     }
 ]

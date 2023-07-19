@@ -44,34 +44,6 @@
     },
     {
         "IdProyecto": 4,
-        "Nombre": "Proyecto Final de DAMv1: WEB",
-        "InfoGeneral": {
-            "Foto": "src/proyectos/finalDAMv.png",
-            "Idiomas": "Castellano",
-            "Descripcion": "Bienvienidos a Juegaton por el Grupo 4, este juego consta de un conjunto de minijuegos que otorgan puntos al jugador para un ranking"
-
-        },
-        "Enlace": "proyecto.html",
-        "EnlaceProyecto": "pagina web de damv",
-        "autor": "Olav Martos Aceña, Agustin Garibotto, Yanick Garcia y Joan Aguayo.",
-        "Informacion": "info/finalDAMvWeb.pdf"
-    },
-    {
-        "IdProyecto": 5,
-        "Nombre": "Proyecto Final de DAMv1: API",
-        "InfoGeneral": {
-            "Foto": "src/proyectos/finalDAMv.png",
-            "Idiomas": "Castellano",
-            "Descripcion": "Bienvienidos a la API de Juegaton por el Grupo 4, esta API comprueba la creacion de nuevos usuarios, y modifica los puntos, tambien otorga los objetos necesarios a los minijuegos que lo necesiten"
-
-        },
-        "Enlace": "proyecto.html",
-        "EnlaceProyecto": "https://github.com/olavma/JSCarGame",
-        "autor": "Olav Martos Aceña, Agustin Garibotto, Yanick Garcia y Joan Aguayo.",
-        "Informacion": "info/finalDAMvAPI.pdf"
-    },
-    {
-        "IdProyecto": 6,
         "Nombre": "Quiz - JS (Proyecto Final de DAMv1: Juego Perdido)",
         "InfoGeneral": {
             "Foto": "src/proyectos/juegoPerdido.png",
