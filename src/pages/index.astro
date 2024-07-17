@@ -1,0 +1,116 @@
+---
+import Layout from '../layouts/Layout.astro';
+import LaboralCard from '../components/LaboralCard.astro';
+import Project from '../components/Project.astro';
+---
+
+<Layout title="Olav Martos Portfolio">
+	<main>
+		<p class="instructions">
+			Hey, mi nombres es <strong>Olav Martos Aceña</strong>
+			<br/>
+			Soy un estudiante de informatica de Barcelona, España.
+		</p>
+
+		<h2>
+			<svg class="size-8" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path d="M3 7m0 2a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v9a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z"></path><path d="M8 7v-2a2 2 0 0 1 2 -2h4a2 2 0 0 1 2 2v2"></path><path d="M12 12l0 .01"></path><path d="M3 13a20 20 0 0 0 18 0"></path></svg>
+			Experiencia Laboral
+		</h2>
+		<ul role="list" class="link-card-grid">
+			<LaboralCard
+				title="Beta-tester de un videojuego"
+				body="Fui un beta-tester para la empresa Scarecrow Studio para probar su videojuego 3 Minutes 2 Midgnight"
+				location='Scarecrow Studio'
+				time='Octubre 2023 - Marzo 2024'
+			/>
+			<!-- <LaboralCard
+				title="Ayudante de Profesor CompeTIC"
+				body="Ayudaba al profesor de informatica con sus clases a los distintos cursos de CompeTIC, a parte de ayudar con otros aspectos informaticos en el CFA"
+				location='Canyelles CFA'
+				time='Diciembre 2021 - Mayo 2022'
+			/> -->
+		</ul>
+
+		<h2>
+			<svg class="size-7" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path d="M7 8l-4 4l4 4"></path><path d="M17 8l4 4l-4 4"></path><path d="M14 4l-4 16"></path></svg>
+			Algunos Proyectos
+		</h2>
+		<ul role="list" class="link-card-grid">
+			<Project
+				title='Proyecto Troncal - Wordle'
+				logo='https://olavma.github.io/src/proyectos/wordle.png'
+				logoAlt='Logo del Proyecto Troncal - Wordle'
+				body='Proyecto troncal para replicar el juego de Wordle en un terminal usando C#.'
+				lang='Castellano, Catalan, Ingles'
+				href='https://olavma.github.io/proyecto.html?id=1'	
+			/>
+			<Project 
+				title='Game Car - JS'
+				logo='https://olavma.github.io/src/proyectos/carGame.png'
+				logoAlt='Logo del Juego del Coche - JS'
+				body='Juego del coche realizado con HTML, CSS y JS para aprender sobre la POO (Programacion Orientada a Objetos).'
+				lang='Castellano'
+				href=''
+			/>
+		</ul>
+	</main>
+</Layout>
+
+<style>
+	main {
+		margin: auto;
+		padding: 1rem;
+		width: 800px;
+		max-width: calc(100% - 2rem);
+		color: white;
+		font-size: 20px;
+		line-height: 1.6;
+	}
+	.astro-a {
+		position: absolute;
+		top: -32px;
+		left: 50%;
+		transform: translatex(-50%);
+		width: 220px;
+		height: auto;
+		z-index: -1;
+	}
+	h1 {
+		font-size: 4rem;
+		font-weight: 700;
+		line-height: 1;
+		text-align: center;
+		margin-bottom: 1em;
+	}
+	.text-gradient {
+		background-image: var(--accent-gradient);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		background-size: 400%;
+		background-position: 0%;
+	}
+	.instructions {
+		margin-bottom: 2rem;
+		border: 1px solid rgba(var(--accent-light), 25%);
+		background: linear-gradient(rgba(var(--accent-dark), 66%), rgba(var(--accent-dark), 33%));
+		padding: 1.5rem;
+		border-radius: 8px;
+	}
+	.instructions code {
+		font-size: 0.8em;
+		font-weight: bold;
+		background: rgba(var(--accent-light), 12%);
+		color: rgb(var(--accent-light));
+		border-radius: 4px;
+		padding: 0.3em 0.4em;
+	}
+	.instructions strong {
+		color: rgb(var(--accent-light));
+	}
+	.link-card-grid {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(40ch, 1fr));
+		gap: 2rem;
+		padding: 0;
+	}
+</style>
