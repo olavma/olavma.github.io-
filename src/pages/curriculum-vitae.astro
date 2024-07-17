@@ -1,0 +1,31 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Footer from '../components/Footer.astro';
+import '../styles/navigation.css';
+import '../styles/main.css'
+---
+
+<Layout title='CV - Olav Martos Aceña'>
+    <nav class="instructions center">
+		<a href="./" class="navA">Home</a>
+		<a href="./curriculum-vitae" class="navA">CV</a>
+		<a href="./proyectos" class="navA">Proyectos</a>
+	</nav>
+    <main>
+        <section>
+            <embed src="https://olavma.github.io/info/CV%20-%20Olav%20Martos%20Ace%C3%B1a.pdf">
+        </section>
+    </main>
+    <Footer />
+</Layout>
+
+<style>
+    section {
+        height: 700px;
+    }
+    embed {
+        margin-left: -150px;
+        width: 150%;
+        height: 100%;
+    }
+</style>
