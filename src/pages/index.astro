@@ -2,9 +2,16 @@
 import Layout from '../layouts/Layout.astro';
 import LaboralCard from '../components/LaboralCard.astro';
 import Project from '../components/Project.astro';
+import Footer from '../components/Footer.astro';
+import '../styles/navigation.css';
 ---
 
 <Layout title="Olav Martos Portfolio">
+	<nav class="instructions center">
+		<a href="./" class="navA">Home</a>
+		<a href="./curriculum-vitae" class="navA">CV</a>
+		<a href="./proyectos" class="navA">Proyectos</a>
+	</nav>
 	<main>
 		<p class="instructions">
 			Hey, mi nombres es <strong>Olav Martos Aceña</strong>
@@ -54,6 +61,7 @@ import Project from '../components/Project.astro';
 			/>
 		</ul>
 	</main>
+	<Footer />
 </Layout>
 
 <style>
