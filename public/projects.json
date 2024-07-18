@@ -6,7 +6,8 @@
         "logoAlt": "Logo del Proyecto Troncal - Wordle",
         "body": "Proyecto troncal para replicar el juego de Wordle en un terminal usando C#.",
         "lang": "Castellano, Catalan, Ingles",
-        "href":"https://olavma.github.io/proyecto.html?id=1"	
+        "href":"projects/1",
+        "github": "https://github.com/olavma/ProjecteTroncal_Wordle"	
     },
     {
         "id": 2,
@@ -15,7 +16,9 @@
         "logoAlt": "Logo del Juego del Coche - JS",
         "body": "Juego del coche realizado con HTML, CSS y JS para aprender sobre la POO (Programacion Orientada a Objetos).",
         "lang": "Castellano",
-        "href":"https://olavma.github.io/proyecto.html?id=3"	
+        "href":"projects/2",
+        "github": "https://github.com/olavma/JSCarGame",
+        "play": "https://olavma.github.io/JSCarGame"
     },
     {
         "id": 3,
@@ -24,7 +27,8 @@
         "logoAlt": "Logo del Juego del Coche - JS",
         "body": "Minijuego que no se pudo lograr para el proyecto Final de de DAMV",
         "lang": "Castellano",
-        "href":"projects/3"	
+        "href":"projects/3",
+        "github": "error404"
     }
   ]
   
