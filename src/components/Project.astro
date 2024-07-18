@@ -6,12 +6,13 @@ interface Props {
 	body: string;
 	lang: string;
 	href: string;
+	extraClass?: string;
 }
 
-const { href, title, body, logo, lang, logoAlt } = Astro.props;
+const { href, title, body, logo, lang, logoAlt, extraClass } = Astro.props;
 ---
 
-<article class="link-card">
+<article class={`link-card ${extraClass || ''}`}>
 	<a href={href}>
 		<h2>{title}</h2>
 		<div class="content">
