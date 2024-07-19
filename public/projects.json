@@ -23,7 +23,7 @@
     {
         "id": 3,
         "title": "QUIZ - JS (PROYECTO FINAL DE DAMV1: JUEGO PERDIDO)",
-        "logo":"https://olavma.github.io/src/proyectos/juegoPerdido.png",
+        "logo":"https://raw.githubusercontent.com/olavma/Resources/main/Portfolio/quiz.webp",
         "logoAlt": "Logo del Juego del Coche - JS",
         "body": "Minijuego que no se pudo lograr para el proyecto Final de de DAMV",
         "lang": "Castellano",
